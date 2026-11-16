@@ -344,7 +344,7 @@ ul,ol{padding:0;list-style:none}
 .shop-row dd{font-size:13px;line-height:1.85;color:var(--ink);min-width:0;overflow-wrap:anywhere}
 .shop-row dd a{border-bottom:1px solid rgba(166,137,76,.5);transition:border-color .2s,color .2s}
 .shop-row dd a:hover{color:var(--gold);border-color:var(--gold)}
-.biz-link{margin-top:26px}
+.biz-link{margin-top:26px;display:flex;flex-direction:column;gap:10px}
 .biz-link .btn{width:100%}
 @media (max-width:900px){
   .biz-grid{grid-template-columns:1fr;gap:24px}
@@ -481,6 +481,7 @@ ul,ol{padding:0;list-style:none}
 .contact-item p{font-size:13px;line-height:1.95;color:var(--muted)}
 .contact-item p a{color:var(--navy);border-bottom:1px solid rgba(166,137,76,.5)}
 .contact-item p a:hover{color:var(--gold)}
+.contact-item .contact-site-link{margin-top:10px;font-size:12.5px;letter-spacing:.04em}
 @media (max-width:900px){
   .contact-wrap{grid-template-columns:1fr;gap:34px}
   .form-card{padding:28px 22px 26px}
@@ -755,6 +756,10 @@ ul,ol{padding:0;list-style:none}
               <div class="shop-row"><dt>取扱品目</dt><dd>金・プラチナ・宝石・ブランド品・時計・骨董品・切手・金券 ほか</dd></div>
             </dl>
             <div class="biz-link">
+              <a class="btn btn-primary" href="https://jeiesu-corp.github.io/daikichi-kashibahata/">
+                買取大吉 香芝畑店 店舗ページを見る
+                <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
+              </a>
               <a class="btn btn-line" href="https://www.kaitori-daikichi.jp/store/kashiba-hata/" target="_blank" rel="noopener noreferrer">
                 公式店舗ページを見る
                 <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></svg>
@@ -1005,6 +1010,7 @@ ul,ol{padding:0;list-style:none}
               〒639-0245 奈良県香芝市畑3-887-4<br>
               TEL <a href="tel:0745515387">0745-51-5387</a>（10:00〜19:00／年中無休）
             </p>
+            <p class="contact-site-link"><a href="https://jeiesu-corp.github.io/daikichi-kashibahata/">買取大吉 香芝畑店 店舗ページを見る ＞</a></p>
           </div>
           <div class="contact-item">
             <p class="c-cat">飲食事業</p>
